@@ -81,6 +81,18 @@ class _MyHomePageState extends State<MyHomePage> {
                        width: 200,
                        color: Colors.lightGreen,
                      ),
+                     Container(
+                       margin: EdgeInsets.only(right: 11),
+                       height: 200,
+                       width: 200,
+                       color: Colors.lightGreen,
+                     ),
+                     Container(
+                       margin: EdgeInsets.only(right: 11),
+                       height: 200,
+                       width: 200,
+                       color: Colors.lightGreen,
+                     ),
                    ],
                  ),
                ),
