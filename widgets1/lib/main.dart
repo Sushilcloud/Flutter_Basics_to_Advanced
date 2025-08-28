@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Text('D',style: TextStyle(fontSize: 20),),
           Text('E',style: TextStyle(fontSize: 20),),
           Text('F',style: TextStyle(fontSize: 20),),
+          Text('F',style: TextStyle(fontSize: 20),),
         ],
       )
       )
