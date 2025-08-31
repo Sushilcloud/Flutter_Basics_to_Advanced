@@ -4,6 +4,7 @@ import 'gridView2.dart';
 import 'gridView3.dart';
 import 'gridView4.dart';
 import 'gridView5.dart';
+import 'gridView6.dart';
 
 
 void main() {
@@ -71,6 +72,15 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (_) => GridView5Screen()),
+                );
+              },
+            ),
+            ElevatedButton(
+              child: Text("Open GridView6"),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => GridView6Screen()),
                 );
               },
             ),
